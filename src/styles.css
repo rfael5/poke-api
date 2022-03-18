@@ -1,0 +1,15 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.poke-card:hover {
+    transform: scale(1.1);
+    transition: all ease 0.2s;
+}
+
